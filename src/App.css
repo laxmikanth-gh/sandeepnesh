@@ -1,0 +1,44 @@
+.app-container {
+  min-height: 100vh;
+  position: relative;
+  background: radial-gradient(circle at 10% 20%, #FFF0F3 0%, #FFF9F6 40%, #FFFDF9 100%);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ambient dreamy background glowing shapes */
+.app-bg-glow-1 {
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  width: 50vw;
+  height: 50vw;
+  background: radial-gradient(circle, rgba(255, 209, 220, 0.4) 0%, rgba(255, 255, 255, 0) 70%);
+  filter: blur(80px);
+  pointer-events: none;
+}
+
+.app-bg-glow-2 {
+  position: absolute;
+  bottom: -10%;
+  right: -10%;
+  width: 50vw;
+  height: 50vw;
+  background: radial-gradient(circle, rgba(247, 197, 181, 0.35) 0%, rgba(255, 255, 255, 0) 70%);
+  filter: blur(80px);
+  pointer-events: none;
+}
+
+.app-bg-glow-3 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  width: 40vw;
+  height: 40vw;
+  background: radial-gradient(circle, rgba(246, 228, 200, 0.3) 0%, rgba(255, 255, 255, 0) 70%);
+  filter: blur(90px);
+  pointer-events: none;
+}
